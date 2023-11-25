@@ -1,0 +1,68 @@
+body {
+	background-color: lightblue;
+}
+
+.sr {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 175px;
+    overflow: hidden; 
+
+}
+
+.kostka {
+    width: 200px;
+	height: 200px;
+	padding: 5px;
+    float: left;
+    border: 5px solid black; 
+    box-sizing: border-box; 
+	font-family: Courier New;
+	font-size: 35px;
+	text-align: center;
+	
+}
+
+#silver {
+    background-color: rgb(192, 192, 192);
+    border-color: black;
+	border-style: dotted;
+	color: black;
+
+}
+
+#gray {
+    background-color: rgb(128, 128, 128);
+    border-color: darkgreen;
+	border-style: groove;
+	color: darkgreen;
+}
+
+#maroon {
+        background-color: rgb(128,0, 0);
+    border-color: orange;
+	border-style: double;
+	color: orange;
+}
+
+#gold {
+        background-color: rgb(255,215, 0);
+    border-color: maroon;
+	border-style: outset;
+	color: maroon;
+}
+
+#teal {
+        background-color: rgb(0,128,128);
+    border-color: silver;
+	border-style: dashed;
+	color: silver;
+}
+
+#pink {
+    background-color: rgb(255,192,203);
+    border-color: purple;
+	border-style: inset;
+	color: purple;
+}
